@@ -142,6 +142,7 @@ branches:
     - master
     # bors-ng branches; see https://bors-ng.github.io/getting-started/
     - trying
+    - dfly-ci
     - staging
 
 notifications:
