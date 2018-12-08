@@ -88,6 +88,8 @@ matrix:
     # - env: TARGET=x86_64-unknown-freebsd DISABLE_TESTS=1
     - env: TARGET=x86_64-unknown-netbsd DISABLE_TESTS=1
       rust: 1.22.1
+    - env: TARGET=x86_64-unknown-dragonfly DISABLE_TESTS=1
+      rust: 1.29.2
 
     # Make sure stable is always working too
     - env: TARGET=x86_64-unknown-linux-gnu
